@@ -1,18 +1,17 @@
 import java.util.Scanner;
 class arithmetic{
-	public static void main(String args[]){
-		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter first number :- ");
-		int a = sc.nextInt();
-		System.out.print("Enter second number :- ");
-		int b = sc.nextInt();
-		int sum=a+b;
-		int dif=a-b;
-		int mul=a*b;
-		int div=a/b;
-		System.out.println("Sum of "+a+" and "+b+" is "+sum);
-		System.out.println("Difference of "+a+" and "+b+" is "+dif);
-		System.out.println("Product of "+a+" and "+b+" is "+mul);
-		System.out.println("Division of "+a+" and "+b+" is "+div);
-	}
+      public static void main(String args[]){
+      int add,sub,mul,div;
+      Scanner sc = new Scanner(System.in);
+      int a = sc.nextInt();
+      int b = sc.nextInt();
+      add=a+b;
+      sub=a-b;
+      mul=a*b;
+      div=a/b;
+      System.out.println("Addition of two number is:- "+add);
+      System.out.println("Subtraction of two number is:- "+sub);
+      System.out.println("Multiplication of two number is:- "+mul);
+      System.out.println("Division of two number is:- "+div);
+      }
 }
